@@ -4,7 +4,9 @@
   "description": "",
   "main": "build/index.js",
   "module": "build/index.es.js",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,15 +21,18 @@
   },
   "homepage": "https://github.com/matheusviriato/react-component-library#readme",
   "peerDependencies": {
-    "react": ">=16.13.0",
-    "react-dom": ">=16.13.0"
+    "react": ">=16.14.0",
+    "react-dom": ">=16.14.0",
+    "@emotion/react": "^11.0.0"
   },
   "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^11.0.0",
+    "@emotion/react": "^11.0.0",
     "@rollup/plugin-commonjs": "^16.0.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@types/react": "^16.9.56",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "rollup": "^2.33.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.29.0",

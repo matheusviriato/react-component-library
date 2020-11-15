@@ -14,11 +14,11 @@ export const buttonBaseStyle = css`
   cursor: pointer;
   min-width: 160px;
   max-height: 48px;
-  width: 100%;
   font-size: 16px;
   color: #333;
   box-shadow: #00000029 0px 2px 2px 0px;
   border-radius: 24px;
+  border: none;
   padding: 15px;
   font-weight: 600;
   &:hover {

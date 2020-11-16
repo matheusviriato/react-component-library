@@ -1,4 +1,5 @@
-import React from 'react';
+/** @jsx jsx */
+import { jsx } from '@emotion/react'
 import * as style from './style';
 
 type Props = {
@@ -24,7 +25,8 @@ const Button: React.FC<Props> = ({
   return (
     <button
       id={id}
-      {...restAttributes}
+      data-testid="button-testid"
+      type="submit"
       disabled={disabled}
       css={[
         style.buttonBaseStyle,
@@ -33,6 +35,7 @@ const Button: React.FC<Props> = ({
         disabled && style.disabledStyle,
       ]}
       onClick={onClick}
+      {...restAttributes}
     >
       {children}
     </button>

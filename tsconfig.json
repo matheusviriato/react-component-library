@@ -10,7 +10,7 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "types": ["@emotion/react"]
+    "types": ["@emotion/core", "jest", "node"]
   },
   "include": ["src/**/*"],
   "exclude": [
